@@ -1,11 +1,9 @@
 import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Skills from './components/Skills';
 import Bio from './components/Bio';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import { Container } from 'reactstrap';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
 import {Button} from 'reactstrap';
