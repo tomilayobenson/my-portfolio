@@ -13,16 +13,16 @@ export const PROJECTS = [
         description:
             'Designed a movie listings website using React, Reactstrap and the TMDB api.The home page shows a listing of popular movies which can be filtered by category. Once each movie is clicked, a beautifully designed details page is displayed.',
         github: 'https://github.com/tomilayobenson/satflik-movies',
-        link: ''
+        link: 'https://tourmaline-gaufre-817fb8.netlify.app/'
     },
     {
         id: 1,
         image: equipped,
         title: 'Equipped02 - Rent on the Go',
         description:
-            'Designed the front end for a Rent-on-the-go website alongside a team of other Developers using technologies such as React and Reactstrap and Redux for global state management. The post an item form uses redux to post new products to the database.',
+            'Designed the front end for a Rent-on-the-go website alongside a team of other Developers using technologies such as React and Reactstrap and Redux for global state management and posting new items to a local json server.',
         github: 'https://github.com/tomilayobenson/equipped02',
-        link: ''
+        link: 'https://wonderful-gumdrop-6ce085.netlify.app/'
     },
     {
         id: 2,
@@ -31,7 +31,7 @@ export const PROJECTS = [
         description:
             'Designed a simple to-do list web application where users can add items, delete items and update items on the list, using React. This was achieved using simple useState variable and powerful array methods such as filter and map.',
         github: 'https://github.com/tomilayobenson/my-todo',
-        link: ''
+        link: 'https://9tpx8c.csb.app/'
     },
     {
         id: 3,
