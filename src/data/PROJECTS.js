@@ -1,6 +1,6 @@
 import equipped from '../images/equipped.jpg';
 import lyn from '../images/lyn.jpg';
-import postlify from '../images/postlify.jpg';
+import postlify from '../images/postlify-banner.jpg';
 import satflik from '../images/satflik.jpg';
 import satflip from '../images/satflip.png';
 import todo from '../images/todo.png';
@@ -8,19 +8,19 @@ import todo from '../images/todo.png';
 export const PROJECTS = [
     {
         id: 0,
-        image: satflik,
-        title: 'Movie Directory',
+        image: postlify,
+        title: 'Event DP Generator',
         description:
-            'Designed a movie listings website using React, Reactstrap and the TMDB api.The home page shows a listing of popular movies which can be filtered by category. Once each movie is clicked, a beautifully designed details page is displayed.',
-        github: 'https://github.com/tomilayobenson/satflik-movies',
-        link: 'https://tourmaline-gaufre-817fb8.netlify.app/'
+            'Designed a website that allow vendors create an account, upload a poster, select a cutout area, make payment and generate a shareable link for downloading personalized posters by their event attendees. This was created using React, Node.js, Express.js, MobX and MongoDB.',
+        github: '',
+        link: 'https://postlify.live'        
     },
     {
         id: 1,
         image: equipped,
         title: 'Equipped02 - Rent on the Go',
         description:
-            'Designed the front end for a Rent-on-the-go website alongside a team of other Developers using technologies such as React and Reactstrap and Redux for global state management and posting new items to a local json server.',
+            'Designed the front end and back end for a Rent-on-the-go website alongside a team of other Developers using the MERN stack (MongoDB Atlas, Express, React and Node) including Reactstrap and Redux for global state management.',
         github: 'https://github.com/tomilayobenson/equipped02',
         link: 'https://wonderful-gumdrop-6ce085.netlify.app/'
     },
@@ -35,21 +35,21 @@ export const PROJECTS = [
     },
     {
         id: 3,
+        image: satflik,
+        title: 'Movie Directory',
+        description:
+            'Designed a movie listings website using React, Reactstrap and the TMDB api.The home page shows a listing of popular movies which can be filtered by category. Once each movie is clicked, a beautifully designed details page is displayed.',
+        github: 'https://github.com/tomilayobenson/satflik-movies',
+        link: 'https://tourmaline-gaufre-817fb8.netlify.app/'       
+    },
+    {
+        id: 4,
         image: satflip,
         title: 'Movie Directory App',
         description:
             'A mobile app version of the Satflik movies project built using React native and Redux for state management. The categories array was managed using redux.',
         github: 'https://github.com/tomilayobenson/satflik-app',
         link: ''
-    },
-    {
-        id: 4,
-        image: postlify,
-        title: 'Event DP Generator',
-        description:
-            'Designed websites that allow vendors share link for downloading personalized posters with their event attendees. This was done using html, css and javascript canvas and hosted on Netlify.',
-        github: '',
-        link: 'https://dp.bloomingladiescoop.ca'
     },
     {
         id: 5,
